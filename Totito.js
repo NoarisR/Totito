@@ -1,8 +1,7 @@
 let turno = "X";
 let juegoActivo = true;
 const wintTextElemento =  document.getElementById('winText');
-
-
+// funcion principal del juego
 const jugar = (x,y) => {
 	if (!juegoActivo) return;
 
